@@ -1,0 +1,14 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+body {font-family: 'Poppins', sans-serif;}
+div.sidebar ul {font-family: 'Poppins', sans-serif;}
+div.sidebar p {font-family: 'Poppins', sans-serif; font-size: 14px; }
+div.sidebar a { color:#29829b; font-weight: bold;
+  font-family: 'Poppins', sans-serif}
