@@ -1,0 +1,36 @@
+---
+layout: viz
+title:  "Premier League years"
+date:   2022-12-12 08:45:10 +0000
+categories: jekyll update
+excerpt: An interactive visualisation showing historical premier league points totals. Built with D3.
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+    <title>Premier League Years</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <style>
+    body {
+      font-family: "Quicksand", serif;
+    }
+</style>
+  </head>
+  <body>
+    <h1>Premier League Years</h1>
+    <p> The chart below visualises the Premier League table for each year going back to 95/96, the first PL season with 20 teams.<br>Hover over a team to see how they have performed over the years.
+      </p>
+
+    <div id="viz_area"></div>
+    <p style="font-size: 12px">
+      Design inspired by <a href="https://www.theguardian.com/sport/ng-interactive/2016/aug/14/how-nafissatou-thiam-beat-the-odds-to-claim-the-heptathlon-gold-in-rio">this Guardian article</a>.
+      Data from <a href="https://www.football-data.co.uk">football-data.co.uk</a>
+  </p>
+    <script type="text/javascript" src="../../../../../static/pl_years.js"></script>
+
+  </body>
+
+</html>
